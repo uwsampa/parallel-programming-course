@@ -6,16 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: "CSEP524: Parallel Computation"
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Parallel programming course from University of Washington's Department of Computer Science and Engineering.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://homes.cs.washington.edu/~nelson/csep524" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# deploy info
+base: '/~nelson/csep524'
+
 # Build settings
 markdown: kramdown
+
+# exclude these files
+exclude: [README.md, Makefile]
+
