@@ -10,13 +10,13 @@ title: "CSEP524: Parallel Computation"
 email: nelson[at]cs...
 description: > # this means to ignore newlines until "baseurl:"
   Parallel programming course from University of Washington's Department of Computer Science and Engineering.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://homes.cs.washington.edu/~nelson/csep524" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://homes.cs.washington.edu/~nelson/csep524" # the base hostname & protocol for your site
+baseurl: "/~nelson/csep524/TBD" # the subpath of your site, e.g. /blog
+url: "http://homes.cs.washington.edu" # the base hostname & protocol for your site
 
 # deploy info
-####base: '/~nelson/csep524'
+##base: '/~nelson/csep524/TBD'
 
 # Build settings
 markdown: kramdown
