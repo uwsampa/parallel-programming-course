@@ -1,0 +1,144 @@
+## Schedule data
+##
+## Will be formatted in index.md
+## 
+## Topics and assignments are markdown-formatted blocks.
+## The markdown formatter is a little more unforgiving here;
+## you must have a blank line before lists, etc.
+## 
+
+- date: 9/29
+  topics: |
+    Introduction / Parallelism / Metrics / Performance
+    
+    * Course administravia
+    * Why parallel computing? Why now?
+    * Metrics and measuring performance
+    * Machine model
+    * Models of parallelism
+    * Parallel architectures overview
+    * Amdahl's law
+    
+    Optional reading:
+    
+    * [Moore's Law](https://courses.cs.washington.edu/courses/csep548/15au/uwnetid/papers/MooresLaw.pdf)
+    * [Characterizing Computer Performance](http://courses.cs.washington.edu/courses/csep548/15au/uwnetid/papers/smith.single-number.cacm.1988.pdf)
+    
+  assignments: |
+    * HW1 out
+
+- date: 10/6
+  topics: |
+    Message passing
+    
+    * Dependences
+    * Deadlock and livelock
+    * Synchronization
+    * collective operations
+    * Search and eurekas
+    * MPI
+
+  assignments: |
+    * HW2 out
+
+- date: 10/13
+  topics: |
+    Memory systems and multicores
+
+    * Single processor machines; memory hierarchies and processor features
+    * Multicore architectures
+    * Cache coherence
+    * False sharing
+    * Memory consistency models
+    
+  assignments: |
+    * **HW1 due**
+    * HW3 out
+  
+- date: 10/20
+  topics: |
+    Distributed shared memory; PGAS and RDMA
+
+    * One-sided communication / RDMA
+    * Active messages
+    * Data distribution
+    * Grappa
+  assignments: |
+    * **HW2 due**
+    * HW4 out
+
+- date: 10/27
+  topics: |
+    Accelerators
+
+    * Kernels
+    * Offload
+    * Communication issues
+    * OpenCL
+  assignments: |
+    * **HW3 due**
+
+- date: 11/3
+  topics: |
+    Irregular applications; graph applications
+
+    * Latency tolerance
+    * Load imbalance
+    * Work stealing
+    * Cilk
+    
+  assignments: |
+    
+
+- date: 11/10
+  topics: |
+    Parallel and distributed data structures
+
+    * Synchronization
+    * Lock-free approaches
+    * Hotspots
+    * Combining
+    
+  assignments: |
+    * **HW4 due**
+    * Start project
+
+- date: 11/17
+  topics: |
+    "Big data" computation
+
+    * MapReduce / Hadoop
+    * Spark
+    * IO systems
+  assignments: |
+
+
+- date: 11/24
+  topics: |
+    Thanksgiving! No class!
+  assignments: |
+    * Eat food.
+
+- date: 12/1
+  topics: |
+    Out-there stuff
+    
+    * Automatic parallelization
+  assignments: |
+
+
+- date: 12/8
+  topics: |
+    LAST DAY OF CLASS!
+    
+    * Project presentations
+    
+  assignments: |
+    * **Project presentations**
+
+- date: 12/15
+  topics: |
+    Project writeup due
+  assignments: |
+    * **Project writeup due**
+

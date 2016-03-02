@@ -4,7 +4,9 @@ build::
 	jekyll build
 
 serve::
-	jekyll serve --watch
+	jekyll serve --verbose
+	## broken
+	##jekyll serve --incremental --watch
 
 deploy:: build
 	@echo First fix $(DEPLOY_LOCATION); then we can deploy.

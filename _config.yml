@@ -7,7 +7,7 @@
 
 # Site settings
 title: "CSEP524: Parallel Computation"
-email: your-email@domain.com
+email: nelson[at]cs...
 description: > # this means to ignore newlines until "baseurl:"
   Parallel programming course from University of Washington's Department of Computer Science and Engineering.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -16,11 +16,19 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # deploy info
-base: '/~nelson/csep524'
+####base: '/~nelson/csep524'
 
 # Build settings
 markdown: kramdown
 
+incremental: False
+
+include:
+ - index.md
+ 
 # exclude these files
-exclude: [README.md, Makefile]
+exclude:
+ - README.md
+ - Makefile
+ 
 
